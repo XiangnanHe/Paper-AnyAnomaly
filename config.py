@@ -4,7 +4,7 @@ os.environ["HDF5_USE_FILE_LOCKING"] = "FALSE"
 if not os.path.exists('results'):
     os.mkdir('results')
 
-share_config = {'data_root': '/home/anonymous/datasets',
+share_config = {'data_root': '/mnt/task_runtime/Paper-AnyAnomaly/datasets',
                 'cdata_root': 'ground_truth'
                 } 
 
